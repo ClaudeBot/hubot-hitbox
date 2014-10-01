@@ -1,8 +1,5 @@
 # Description:
-#   hitbox Public API
-#
-# Dependencies:
-#   None
+#   Hitbox Public API
 #
 # Configuration:
 #   None

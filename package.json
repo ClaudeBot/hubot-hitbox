@@ -1,0 +1,41 @@
+{
+  "name": "hubot-hitbox",
+  "description": "A Hubot script for interacting with Hitbox.tv API.",
+  "version": "1.0.0",
+
+  "author": "Karl Birch",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "hitbox",
+    "livestream"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ClaudeBot/hubot-hitbox.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/ClaudeBot/hubot-hitbox/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
