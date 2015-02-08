@@ -1,7 +1,7 @@
 {
   "name": "hubot-hitbox",
   "description": "A Hubot script for interacting with Hitbox.tv API.",
-  "version": "1.0.0",
+  "version": "1.1.0",
 
   "author": "Karl Birch",
   "license": "MIT",
