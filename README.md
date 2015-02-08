@@ -1,11 +1,13 @@
 # Hubot: Hitbox.tv
 
-A Hubot script for interacting with Hitbox.tv API.
+A Hubot script for interacting with Hitbox.tv API. 
+
+Developed by [mbwk](//github.com/mbwk).
 
 
 ## Installation via NPM
 
-1. Install the __hubot-hitbox__ module as a Hubot dependency by adding it to your `package.json` file:
+1. Install the __hubot-hitbox__ module as a Hubot dependency by running:
 
     ```
     npm install --save hubot-hitbox
@@ -14,7 +16,9 @@ A Hubot script for interacting with Hitbox.tv API.
 2. Enable the script by adding the __hubot-hitbox__ entry to your `external-scripts.json` file:
 
     ```json
-    ["hubot-hitbox"]
+    [
+        "hubot-hitbox"
+    ]
     ```
 
 3. Run `npm install`
@@ -24,4 +28,4 @@ A Hubot script for interacting with Hitbox.tv API.
 
 Command | Description
 --- | ---
-hubot hb __stream__ `name` | Returns information about stream `name`
+hubot hb stream `name` | Returns information about stream `name`
