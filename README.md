@@ -21,7 +21,7 @@ Developed by [mbwk](//github.com/mbwk).
     ]
     ```
 
-3. Run `npm install`
+3. Run your bot and see below for available config / commands
 
 
 ## Commands
