@@ -1,6 +1,8 @@
 # Hubot: Hitbox.tv
 
-A Hubot script for interacting with Hitbox.tv API. 
+[![Build Status](https://travis-ci.org/ClaudeBot/hubot-hitbox.svg)](https://travis-ci.org/ClaudeBot/hubot-hitbox)
+
+A Hubot script for interacting with Hitbox.tv API.
 
 Developed by [mbwk](//github.com/mbwk).
 
