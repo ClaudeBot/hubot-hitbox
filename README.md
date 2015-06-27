@@ -4,7 +4,7 @@
 
 A Hubot script for interacting with Hitbox.tv API.
 
-Developed by [mbwk](//github.com/mbwk).
+Developed by [mbwk](//github.com/mbwk). See [`src/hitbox.coffee`](src/hitbox.coffee) for full documentation.
 
 
 ## Installation via NPM
@@ -15,7 +15,7 @@ Developed by [mbwk](//github.com/mbwk).
     npm install --save hubot-hitbox
     ```
 
-2. Enable the script by adding the __hubot-hitbox__ entry to your `external-scripts.json` file:
+2. Enable the module by adding the __hubot-hitbox__ entry to your `external-scripts.json` file:
 
     ```json
     [
