@@ -12,29 +12,29 @@
 
 module.exports = (robot) ->
 
-    robot.respond /hb stream (.+)/i, (msg) ->
-        hitboxRequest msg, "/media/live/#{msg.match[1]}", null, (object) ->
+    robot.respond /hb stream (.+)/i, (res) ->
+        hitboxRequest res, "/media/live/#{res.match[1]}", null, (object) ->
 
             if not object.livestream
-                msg.reply "Unable to find a currently live stream under that name."
+                res.reply "Unable to find a currently live stream under that name."
                 return
 
             livestream = object.livestream[0]
 
             if livestream.media_is_live is "0"
-                msg.reply "#{livestream.media_user_name} is not currently streaming."
+                res.reply "#{livestream.media_user_name} is not currently streaming."
                 return
 
-            msg.reply "http://hitbox.tv/#{livestream.media_user_name} is currently streaming #{livestream.category_name}"
-            msg.send "They have been streaming since #{livestream.media_live_since}"
+            res.reply "http://hitbox.tv/#{livestream.media_user_name} is currently streaming #{livestream.category_name}"
+            res.send "They have been streaming since #{livestream.media_live_since}"
 
-hitboxRequest = (msg, api, params = {}, handler) ->
-    msg.http("http://api.hitbox.tv#{api}")
+hitboxRequest = (res, api, params = {}, handler) ->
+    res.http("http://api.hitbox.tv#{api}")
         .query(params)
-        .get() (err, res, body) ->
+        .get() (err, httpRes, body) ->
             if err
-                msg.reply "Error encountered while making request to hitbox API."
-                return robot.logger.error err
+                res.reply "Error encountered while making request to hitbox API."
+                return robot.logger.error "hubot-hitbox: #{err}"
 
             if body[0] != "{"
                 handler {}
