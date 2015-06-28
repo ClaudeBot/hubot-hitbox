@@ -2,7 +2,7 @@
   "name": "hubot-hitbox",
   "description": "A Hubot script for interacting with Hitbox.tv API.",
   "version": "1.1.1",
-  "author": "Karl Birch",
+  "author": "Karl Birch (https://github.com/mbwk)",
   "contributors": [
     "Ian Lai <ian@fyianlai.com>"
   ],
