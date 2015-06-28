@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/ClaudeBot/hubot-hitbox.svg)](https://travis-ci.org/ClaudeBot/hubot-hitbox)
 [![devDependency Status](https://david-dm.org/ClaudeBot/hubot-hitbox/dev-status.svg)](https://david-dm.org/ClaudeBot/hubot-hitbox#info=devDependencies)
 
-A Hubot script for interacting with Hitbox.tv API.
+A Hubot script for interacting with [Hitbox.tv](http://www.hitbox.tv/) API.
 
 Developed by [mbwk](//github.com/mbwk). See [`src/hitbox.coffee`](src/hitbox.coffee) for full documentation.
 
