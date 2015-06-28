@@ -1,6 +1,7 @@
-# Hubot: Hitbox.tv
+# hubot-hitbox
 
 [![Build Status](https://travis-ci.org/ClaudeBot/hubot-hitbox.svg)](https://travis-ci.org/ClaudeBot/hubot-hitbox)
+[![devDependency Status](https://david-dm.org/ClaudeBot/hubot-hitbox/dev-status.svg)](https://david-dm.org/ClaudeBot/hubot-hitbox#info=devDependencies)
 
 A Hubot script for interacting with Hitbox.tv API.
 
@@ -31,3 +32,11 @@ Developed by [mbwk](//github.com/mbwk). See [`src/hitbox.coffee`](src/hitbox.cof
 Command | Description
 --- | ---
 hubot hb stream `name` | Returns information about stream `name`
+
+
+## Sample Interaction
+
+```
+user1>> hubot hb stream minstars
+hubot>> user1: http://hitbox.tv/Minstars is currently streaming Web Development
+```
