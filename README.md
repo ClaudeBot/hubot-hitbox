@@ -29,9 +29,9 @@ Developed by [mbwk](//github.com/mbwk). See [`src/hitbox.coffee`](src/hitbox.cof
 
 ## Commands
 
-Command | Description
---- | ---
-hubot hb stream `name` | Returns information about stream `name`
+Command | Listener ID | Description
+--- | --- | ---
+hubot hb stream `name` | `hitbox.stream` | Returns information about stream `name`
 
 
 ## Sample Interaction

@@ -12,7 +12,7 @@
 
 module.exports = (robot) ->
 
-    robot.respond /hb stream (.+)/i, (res) ->
+    robot.respond /hb stream (.+)/i, id: "hitbox.stream", (res) ->
         hitboxRequest res, "/media/live/#{res.match[1]}", null, (object) ->
 
             if not object.livestream
